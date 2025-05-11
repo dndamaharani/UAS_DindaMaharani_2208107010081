@@ -41,11 +41,11 @@ pip install -r requirements_frontend.txt
 streamlit run app.py
 
 ## 🔐 Konfigurasi API Gemini
-Buka: Google AI Studio
+1.Buka: Google AI Studio
 
-Buat API key
+2.Buat API key
 
-Simpan key ke dalam file .env seperti berikut:
+3.Simpan key ke dalam file .env seperti berikut:
 GEMINI_API_KEY=masukkan_api_key_anda
 API_URL=http://localhost:8000 
 
