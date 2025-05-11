@@ -25,7 +25,7 @@ env\Scripts\activate
 - Install dependensi backend
 pip install -r requirements.txt
 
-- Jalankan backend
+- Run Server
 uvicorn backend.main:app --reload --host 0.0.0.0 --port 8000
 
 # 3. Menjalankan Frontend (Streamlit)
