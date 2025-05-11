@@ -14,11 +14,11 @@ Aplikasi web ini dirancang untuk membantu pelajar menulis email profesional deng
 
 
 ## ⚙️ Panduan Instalasi & Menjalankan Proyek
-# 1. Kloning Repositori
+### 1. Kloning Repositori
 git clone https://github.com/username/intelligent_email_writer.git
 cd UAS_DindaMaharani_2208107010081
 
-# 2. Menjalankan Backend (FastAPI)
+### 2. Menjalankan Backend (FastAPI)
 - Buat dan aktifkan virtual environment
 python -m venv env
 env\Scripts\activate         
@@ -29,7 +29,7 @@ pip install -r requirements.txt
 - Run Server
 uvicorn backend.main:app --reload --host 0.0.0.0 --port 8000
 
-# 3. Menjalankan Frontend (Streamlit)
+### 3. Menjalankan Frontend (Streamlit)
 Buka terminal baru:
 
 - Aktifkan environment jika belum
