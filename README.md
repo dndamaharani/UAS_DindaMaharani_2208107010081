@@ -12,14 +12,6 @@ Aplikasi web ini dirancang untuk membantu pelajar menulis email profesional deng
 
 - Hasil akhir berupa email profesional yang siap dikirim
 
-## 📁 Struktur Proyek
-intelligent\_email\_writer/
-├── .env                     # Berisi API Key Gemini
-├── app.py                  # Frontend dengan Streamlit
-├── backend/
-│   └── main.py             # Backend API menggunakan FastAPI
-├── requirements.txt        # Dependensi backend
-├── requirements\_frontend.txt # Dependensi frontend (opsional)
 
 ## ⚙️ Panduan Instalasi & Menjalankan Proyek
 # 1. Kloning Repositori
