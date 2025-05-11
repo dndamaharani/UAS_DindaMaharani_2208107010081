@@ -13,41 +13,43 @@ Input poin-poin utama yang ingin disampaikan
 Hasil akhir berupa email profesional yang siap dikirim
 
 ## ⚙️ Panduan Instalasi & Menjalankan Proyek
-1. Kloning Repositori
+# 1. Kloning Repositori
 bash
 Copy
 Edit
 git clone https://github.com/username/intelligent_email_writer.git
 cd UAS_DindaMaharani_2208107010081
 
-2. Menjalankan Backend (FastAPI)
+# 2. Menjalankan Backend (FastAPI)
 bash
 Copy
 Edit
-# Buat dan aktifkan virtual environment
+
+- Buat dan aktifkan virtual environment
 python -m venv env
 env\Scripts\activate         # Untuk Windows
 source env/bin/activate      # Untuk Linux/macOS
 
-# Install dependensi backend
+- Install dependensi backend
 pip install -r requirements.txt
 
-# Jalankan backend
+- Jalankan backend
 uvicorn backend.main:app --reload --host 0.0.0.0 --port 8000
-3. Menjalankan Frontend (Streamlit)
+
+# 3. Menjalankan Frontend (Streamlit)
 Buka terminal baru:
 
 bash
 Copy
 Edit
-# Aktifkan environment jika belum
-env\Scripts\activate         # Windows
-source env/bin/activate      # Linux/macOS
 
-# Install dependensi frontend
+- Aktifkan environment jika belum
+env\Scripts\activate         # Windows
+
+- Install dependensi frontend
 pip install -r requirements_frontend.txt
 
-# Jalankan Streamlit app
+- Jalankan Streamlit app
 streamlit run app.py
 
 ## 🔐 Konfigurasi API Gemini
