@@ -12,20 +12,6 @@ Input poin-poin utama yang ingin disampaikan
 
 Hasil akhir berupa email profesional yang siap dikirim
 
-## 🗂️ Struktur Direktori
-bash
-Copy
-Edit
-intelligent_email_writer/
-├── .env                    # File konfigurasi API Gemini
-├── .env.template           # Template .env
-├── app.py                  # Antarmuka pengguna (frontend) dengan Streamlit
-├── backend/
-│   └── main.py             # Logika backend menggunakan FastAPI
-├── requirements.txt        # Dependensi backend
-├── requirements_frontend.txt # Dependensi frontend
-├── README.md               # Dokumentasi proyek
-
 ## ⚙️ Panduan Instalasi & Menjalankan Proyek
 1. Kloning Repositori
 bash
