@@ -2,29 +2,22 @@
 Aplikasi web ini dirancang untuk membantu pelajar menulis email profesional dengan mudah menggunakan teknologi AI dari Google Gemini. Dengan antarmuka yang intuitif, pengguna cukup memasukkan informasi penting, dan aplikasi akan menyusun email yang rapi dan sesuai konteks secara otomatis.
 
 ## 🌟 Fitur Aplikasi
-Pilihan jenis email seperti: Permintaan Akademik, Bimbingan Skripsi, Lamaran Magang, dan lainnya
+- Pilihan jenis email seperti: Permintaan Akademik, Bimbingan Skripsi, Lamaran Magang, dan lainnya
 
-Gaya bahasa yang dapat disesuaikan: formal, netral, atau santai
+- Gaya bahasa yang dapat disesuaikan: formal, netral, atau santai
 
-Dukungan multi-bahasa: Bahasa Indonesia dan Bahasa Inggris
+- Dukungan multi-bahasa: Bahasa Indonesia dan Bahasa Inggris
 
-Input poin-poin utama yang ingin disampaikan
+- Input poin-poin utama yang ingin disampaikan
 
-Hasil akhir berupa email profesional yang siap dikirim
+- Hasil akhir berupa email profesional yang siap dikirim
 
 ## ⚙️ Panduan Instalasi & Menjalankan Proyek
 # 1. Kloning Repositori
-bash
-Copy
-Edit
 git clone https://github.com/username/intelligent_email_writer.git
 cd UAS_DindaMaharani_2208107010081
 
 # 2. Menjalankan Backend (FastAPI)
-bash
-Copy
-Edit
-
 - Buat dan aktifkan virtual environment
 python -m venv env
 env\Scripts\activate         # Untuk Windows
@@ -38,10 +31,6 @@ uvicorn backend.main:app --reload --host 0.0.0.0 --port 8000
 
 # 3. Menjalankan Frontend (Streamlit)
 Buka terminal baru:
-
-bash
-Copy
-Edit
 
 - Aktifkan environment jika belum
 env\Scripts\activate         # Windows
@@ -58,12 +47,8 @@ Buka: Google AI Studio
 Buat API key
 
 Simpan key ke dalam file .env seperti berikut:
-
-ini
-Copy
-Edit
-GEMINI_API_KEY=masukkan_api_key_anda
-API_URL=http://localhost:8000
+_ GEMINI_API_KEY=masukkan_api_key_anda
+API_URL=http://localhost:8000 _
 Salin file template .env.template terlebih dahulu:
 
 bash
