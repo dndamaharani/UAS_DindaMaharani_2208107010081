@@ -68,7 +68,7 @@ cp .env.template .env
 
 - AI Model: Google Gemini (Generative AI)
 
-- -Bahasa Pemrograman: Python 3.8+
+- Bahasa Pemrograman: Python 3.8+
 
 ## ❓ Troubleshooting
 - Server tidak merespon? Pastikan backend FastAPI sudah dijalankan di port 8000
