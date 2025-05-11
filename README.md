@@ -20,8 +20,7 @@ cd UAS_DindaMaharani_2208107010081
 # 2. Menjalankan Backend (FastAPI)
 - Buat dan aktifkan virtual environment
 python -m venv env
-env\Scripts\activate         # Untuk Windows
-source env/bin/activate      # Untuk Linux/macOS
+env\Scripts\activate         
 
 - Install dependensi backend
 pip install -r requirements.txt
