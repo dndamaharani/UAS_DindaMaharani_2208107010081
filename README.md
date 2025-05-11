@@ -47,36 +47,33 @@ Buka: Google AI Studio
 Buat API key
 
 Simpan key ke dalam file .env seperti berikut:
-_ GEMINI_API_KEY=masukkan_api_key_anda
-API_URL=http://localhost:8000 _
-Salin file template .env.template terlebih dahulu:
+GEMINI_API_KEY=masukkan_api_key_anda
+API_URL=http://localhost:8000 
 
-bash
-Copy
-Edit
+Salin file template .env.template terlebih dahulu:
 cp .env.template .env
 
 ## 🧪 Cara Menggunakan
-Pilih jenis email dan gaya bahasa
+1.Pilih jenis email dan gaya bahasa
 
-Masukkan nama penerima, subjek, dan poin-poin penting
+2.Masukkan nama penerima, subjek, dan poin-poin penting
 
-Klik "Buat Email"
+3.Klik "Buat Email"
 
-Email akan ditampilkan dan bisa langsung disalin untuk digunakan
+4.Email akan ditampilkan dan bisa langsung disalin untuk digunakan
 
 ## 🛠 Teknologi yang Digunakan
-Frontend: Streamlit
+- Frontend: Streamlit
 
-Backend: FastAPI
+- Backend: FastAPI
 
-AI Model: Google Gemini (Generative AI)
+- AI Model: Google Gemini (Generative AI)
 
-Bahasa Pemrograman: Python 3.8+
+- -Bahasa Pemrograman: Python 3.8+
 
 ## ❓ Troubleshooting
-Server tidak merespon? Pastikan backend FastAPI sudah dijalankan di port 8000
+- Server tidak merespon? Pastikan backend FastAPI sudah dijalankan di port 8000
 
-Email tidak muncul? Cek kembali format atau isi dari poin yang dimasukkan
+- Email tidak muncul? Cek kembali format atau isi dari poin yang dimasukkan
 
-API error? Pastikan API Key sudah benar dan tersimpan di .env
+- API error? Pastikan API Key sudah benar dan tersimpan di .env
